@@ -1,0 +1,44 @@
+.Home > main > .limiter {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.Home .container {
+  padding: 1rem;
+  background-color: var(--main);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Home .container:nth-child(1) {
+  width: 450px;
+  max-width: calc(100% - 4rem);
+}
+.Home .container:nth-child(1) > .title-wrp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Home .container:nth-child(1) > .title-wrp > h2 {
+  line-height: 0;
+  letter-spacing: 0.1px;
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.Home .container:nth-child(1) > .title-wrp > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.75rem;
+  aspect-ratio: 1/1;
+  background-color: transparent;
+  border: none;
+}
+.Home .container:nth-child(1) > .title-wrp > button:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+  cursor: pointer;
+}
+.Home .container:nth-child(1) > .title-wrp > button > img {
+  height: 1rem;
+}

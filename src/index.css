@@ -1,21 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 
 :root {
   --main: #fff;
   --main-1: #f0f3f7;
   --accent: #214b8d;
-}
-
-.arvo-regular {
-  font-family: "Arvo", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.arvo-bold {
-  font-family: "Arvo", serif;
-  font-weight: 700;
-  font-style: normal;
+  --dark: #242527;
 }
 
 .limiter {
@@ -30,4 +19,10 @@ body {
   box-sizing: border-box;
   line-height: 1.5;
   background-color: var(--main-1);
+  color: var(--dark);
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100, "YTLC" 500;
 }
