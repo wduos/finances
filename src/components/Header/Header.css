@@ -2,14 +2,15 @@ header {
   display: flex;
   align-items: center;
   height: 3.5rem;
+  width: 100%;
   padding-inline: 1rem;
   background-color: var(--main);
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
 }
-header > a {
-  display: flex;
+header > .limiter > a {
+  display: inline-flex;
   text-decoration: none;
 }
-header > a > img {
+header > .limiter > a > img {
   height: 1.5rem;
 }

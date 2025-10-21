@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap");
 
 :root {
-  color-scheme: light dark;
-  --main: #242424;
+  --main: #fff;
+  --main-1: #f0f3f7;
   --accent: #214b8d;
 }
 
@@ -18,15 +18,16 @@
   font-style: normal;
 }
 
+.limiter {
+  width: 100%;
+  max-width: 1920px;
+  margin: auto;
+}
+
 body {
+  width: 100vw;
   margin: 0;
   box-sizing: border-box;
   line-height: 1.5;
-  background-color: var(--main);
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --main: #fff;
-  }
+  background-color: var(--main-1);
 }
